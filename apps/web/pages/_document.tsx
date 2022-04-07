@@ -1,16 +1,17 @@
-import React from "react";
-import NextDocument, { Html, Head, Main, NextScript } from "next/document";
-import { getCssText } from "ui";
+import NextDocument, {
+  Html,
+  Head,
+  Main,
+  NextScript,
+  DocumentContext,
+} from "next/document";
+import { ColorModeScript } from "@chakra-ui/color-mode";
 
 export default class Document extends NextDocument {
   render() {
     return (
       <Html lang="en">
         <Head>
-          <style
-            id="stitches"
-            dangerouslySetInnerHTML={{ __html: getCssText() }}
-          />
           <link
             rel="preload"
             href="/fonts/UntitledSansWeb-Regular.woff"
@@ -78,10 +79,20 @@ export default class Document extends NextDocument {
 `,
             }}
           />
-          <link rel="icon" href="/favicon.png" />
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+            rel="stylesheet"
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet"
+          />
+          <link rel="icon" href="/favicon.ico" />
           <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         </Head>
         <body>
+          <ColorModeScript />
           <Main />
           <NextScript />
         </body>

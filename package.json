@@ -1,5 +1,5 @@
 {
-  "name": "turborepo-basic-shared",
+  "name": "school-fit-turborepo",
   "version": "0.0.0",
   "private": true,
   "workspaces": [
@@ -22,7 +22,9 @@
   },
   "packageManager": "yarn@1.22.17",
   "dependencies": {
-    "@radix-ui/colors": "^0.1.8",
-    "@stitches/react": "^1.2.7"
+    "@chakra-ui/react": "^1.8.7",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "framer-motion": "^6"
   }
 }

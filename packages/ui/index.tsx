@@ -1,10 +1,1 @@
 import * as React from "react";
-export * from "./Button";
-export * from "./Box";
-export * from "./Card";
-export * from "./Container";
-export * from "./Flex";
-export * from "./Heading";
-export * from "./Section";
-export * from "./Text";
-export * from "./stitches.config";

@@ -1,0 +1,37 @@
+{
+    "title": "School Fit",
+    "titleTemplate": "%s - School Fit",
+    "description": "학교 급식에서 영양 확인하기",
+    "openGraph": {
+        "title": "School Fit",
+        "description": "School Fit | 학교 급식에서 영양 확인하기",
+        "type": "website",
+        "locale": "ko_KR",
+        "url": "https://school-fit.net",
+        "site_name": "School Fit",
+        "images": [
+            {
+                "url": "/icons/maskable_icon_x128.png",
+                "width": 128,
+                "height": 128,
+                "alt": "School Fit"
+            },
+            {
+                "url": "/icons/maskable_icon_x512.png",
+                "width": 512,
+                "height": 512,
+                "alt": "School Fit"
+            },
+            {
+                "url": "/icons/maskable_icon.png",
+                "width": 1024,
+                "height": 1024,
+                "alt": "School Fit"
+            }
+        ]
+    },
+    "twitter": {
+        "creator": "@phyyou_park",
+        "cardType": "summary_large_image"
+    }
+}
