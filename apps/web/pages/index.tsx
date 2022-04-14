@@ -68,7 +68,7 @@ export default function Home() {
                 <div
                   id="g_id_onload"
                   data-client_id="1093219573949-ku461bq5dfa36llbga5h7iq72ek3bfv2.apps.googleusercontent.com"
-                  data-login_uri="http://localhost:3000/signin/callback"
+                  data-login_uri="http://localhost:3000/api/signin/callback"
                   data-auto_prompt="false"
                   data-ux_mode="redirect"
                 ></div>
